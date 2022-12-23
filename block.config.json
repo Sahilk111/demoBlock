@@ -1,0 +1,13 @@
+{
+  "name": "demoBlock",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/Sahilk111/demoBlock",
+    "ssh": "git@github.com:Sahilk111/demoBlock.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
